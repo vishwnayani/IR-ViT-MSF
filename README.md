@@ -28,12 +28,12 @@ Note: Subset of BraTS2018 was used which consisted of randomly selected patients
 Your dataset directory should follow this structure:
 ```
 Dataset/
-├── BraTS18_Training_001/
-│   ├── BraTS18_Training_001_flair.nii.gz
-│   ├── BraTS18_Training_001_t1.nii.gz
-│   ├── BraTS18_Training_001_t1ce.nii.gz
-│   ├── BraTS18_Training_001_t2.nii.gz
-│   └── BraTS18_Training_001_seg.nii.gz
+├── BraTS20_Training_001/
+│   ├── BraTS20_Training_001_flair.nii.gz
+│   ├── BraTS20_Training_001_t1.nii.gz
+│   ├── BraTS20_Training_001_t1ce.nii.gz
+│   ├── BraTS20_Training_001_t2.nii.gz
+│   └── BraTS20_Training_001_seg.nii.gz
 ├── BraTS18_Training_002/
 │   └── ...
 ```
