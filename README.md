@@ -24,16 +24,17 @@ Note: Subset of BraTS2018 was used which consisted of randomly selected patients
 ### 📁 Expected Dataset Structure
 
 Your dataset directory should follow this structure:
+```
 Dataset/
-├── BraTS20_Training_001/
-│ ├── BraTS20_Training_001_flair.nii.gz
-│ ├── BraTS20_Training_001_t1.nii.gz
-│ ├── BraTS20_Training_001_t1ce.nii.gz
-│ ├── BraTS20_Training_001_t2.nii.gz
-│ └── BraTS20_Training_001_seg.nii.gz
-├── BraTS20_Training_002/
-│ └── ...
-
+├── BraTS18_Training_001/
+│   ├── BraTS18_Training_001_flair.nii.gz
+│   ├── BraTS18_Training_001_t1.nii.gz
+│   ├── BraTS18_Training_001_t1ce.nii.gz
+│   ├── BraTS18_Training_001_t2.nii.gz
+│   └── BraTS18_Training_001_seg.nii.gz
+├── BraTS18_Training_002/
+│   └── ...
+```
 
 ### 🧪 Modalities Used
 - T1-weighted (T1)
@@ -46,7 +47,7 @@ Dataset/
 
 ## 🧰 Installation
 The experiment was run using Kaggle notebook. Similar environment can be set up using:
-pip install -r requirements.txt
+<pre lang="markdown"> ```bash pip install -r requirements.txt ``` </pre>
 
 ---
 
