@@ -18,7 +18,9 @@ The model was implemented and trained using the BraTS2018 dataset and evaluated 
 ## 📂 Dataset Description
 
 **Source:** [BraTS 2020 Challenge]([https://www.med.upenn.edu/cbica/brats2018/](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation))
+---
 **External Validation** [BraTS2018](https://www.kaggle.com/datasets/harshitsinghai/miccai-brats2018-original-dataset)
+---
 Note: Subset of BraTS2018 was used which consisted of randomly selected patients IDs for external validation.
 
 ### 📁 Expected Dataset Structure
