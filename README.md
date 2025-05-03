@@ -47,7 +47,7 @@ Dataset/
 
 ## 🧰 Installation
 The experiment was run using Kaggle notebook. Similar environment can be set up using:
-<pre lang="markdown"> ```bash pip install -r requirements.txt ``` </pre>
+<pre lang="markdown">  !pip install -r requirements.txt </pre>
 
 ---
 
