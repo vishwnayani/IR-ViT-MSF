@@ -11,7 +11,7 @@ This project explores a novel hybrid architecture for medical image segmentation
 - Vision Transformer (ViT) for learning long-range dependencies,
 - Multi-Scale Fusion for integrating hierarchical features effectively.
 
-The model was implemented and trained using the BraTS2018 dataset and evaluated on multiple segmentation metrics including Dice Score, IoU, Sensitivity, and Specificity.
+The model was implemented and trained using the BraTS2020 dataset and evaluated on multiple segmentation metrics including Dice Score, IoU, Sensitivity, and Specificity.
 
 ---
 
@@ -49,7 +49,7 @@ Dataset/
 
 ## 🧰 Installation
 The experiment was run using Kaggle notebook. Similar environment can be set up using:
-<pre lang="markdown">  !pip install -r requirements.txt </pre>
+<pre lang="markdown">  !pip install -r requirements.txt </pre> 
 
 ---
 
