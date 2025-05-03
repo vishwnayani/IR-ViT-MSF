@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from einops.layers.torch import Rearrange
 from torch.cuda.amp import autocast
 
-# 3D Inception-Residual Block
+# 3D Inception-Residual encoder Block
 class InceptionResBlock(nn.Module):
     def __init__(self, in_channels, out_channels):
         super().__init__()
@@ -19,7 +19,7 @@ class InceptionResBlock(nn.Module):
         out = torch.cat([self.conv1x1(x), self.conv3x3(x), self.conv5x5(x), self.conv7x7(x)], dim=1)
         out = self.bn(out + self.residual(x))
         return F.relu(out)
-# 3D Vision Transformer Encoder Block
+# 3D Vision Transformer Block
 class ViTBlock(nn.Module):
     def __init__(self, dim, num_heads):
         super().__init__()
@@ -37,7 +37,7 @@ class ViTBlock(nn.Module):
         x = x + self.mlp(self.norm2(x))
         return x
 
-# Multi-Scale Fusion Module
+# Multi-Scale Fusion decoder Module
 class MultiScaleFusion(nn.Module):
     def __init__(self, in_channels, skip_channels, out_channels):
         super().__init__()
