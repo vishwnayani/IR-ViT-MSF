@@ -34,7 +34,7 @@ Dataset/
 │   ├── BraTS20_Training_001_t1ce.nii.gz
 │   ├── BraTS20_Training_001_t2.nii.gz
 │   └── BraTS20_Training_001_seg.nii.gz
-├── BraTS18_Training_002/
+├── BraTS20_Training_002/
 │   └── ...
 ```
 
@@ -48,7 +48,7 @@ Dataset/
 ---
 
 ## 🧰 Installation
-The experiment was run using Kaggle notebook. Similar environment can be set up using:
+The experiment was run using Kaggle notebook using GPU P100. Similar environment can be set up using:
 <pre lang="markdown">  !pip install -r requirements.txt </pre> 
 
 ---
