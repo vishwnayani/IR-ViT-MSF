@@ -12,7 +12,6 @@ This project explores a novel hybrid architecture for medical image segmentation
 - Multi-Scale Fusion for integrating hierarchical features effectively.
 
 The model was implemented and trained using the BraTS2020 dataset and evaluated on multiple segmentation metrics including Dice Score, IoU, Sensitivity, and Specificity.
-![image](https://github.com/user-attachments/assets/4682c6c2-f13b-426e-852b-c49284041af2)
 
 ---
 
